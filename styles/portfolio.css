@@ -74,6 +74,10 @@ main{
     margin: 0 auto;
 
 }
+.section{
+    margin-top: 130px;
+
+}
 
 /* About Section Style */
 
@@ -84,10 +88,11 @@ border-radius: 10px;
 padding: 130px 150px;
 }
 .section-tittle{
+    text-align: center;
+    font-weight: 700;
+    font-size:35px;
+    margin-bottom: 50px;
 
-margin-bottom: 30px;
-font-weight: 700;
-font-size: ;
 }
 .section-description{
 color: #050505;
@@ -116,3 +121,38 @@ margin-bottom: 30px;
     font-size: 20px;
     color: #474747;
 }
+
+/* What I do style */
+
+.skills-container{
+    display: flex;
+    gap: 50px;
+
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+}
+
+.skill-description{
+    color: #757575;
+
+}
+img{
+width: 70px;
+height: 50px;
+align-items: center;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0,06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Resume Style */
+
