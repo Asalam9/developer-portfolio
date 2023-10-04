@@ -144,7 +144,7 @@ margin-bottom: 30px;
 }
 img{
 width: 70px;
-height: 50px;
+height: 60px;
 align-items: center;
 }
 .skill{
@@ -156,3 +156,26 @@ align-items: center;
 
 /* Resume Style */
 
+.resume-content{
+    display: flex;
+    gap: 50px;
+    
+}
+.resume-item{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.resume .tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #050505;
+}
+.resume .sub-tittle {
+
+color: #474747;
+font-weight: 600;
+font-size: 20px;
+}
+.resume .description{
+    color: #757575;
+}
