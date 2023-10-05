@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 nav{
-    margin: 50px 200px;
+    padding:  50px 200px;
     display: flex;
     justify-content: space-between;
 }
